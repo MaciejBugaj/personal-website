@@ -1,0 +1,281 @@
+{
+  "basic_info": {
+    "name": "Maciej Bugaj",
+    "titles": ["Junior-Software-Engineer"],
+    "socials": [
+      {
+        "icon": "mdi:linkedin",
+        "url": "https://www.linkedin.com/in/maciej-bugaj"
+      },
+      {
+        "icon": "mdi:github",
+        "url": "https://github.com/MaciejBugaj"
+      }
+    ]
+  },
+  "about_me": {
+    "title": "O mnie",
+    "greeting": "Czesc",
+    "content": "Jestem wysoko zmotywowanym młodszym inżynierem oprogramowania z solidnym zapleczem technicznym zdobytym na Uniwersytecie Technologicznym oraz 2-letnim doświadczeniem jako inżynier oprogramowania. Poszukuję pracy w niepełnym wymiarze godzin, aby dalej rozwijać swoje umiejętności jako inżynier oprogramowania.",
+    "image": "maciejBugaj.jpg"
+  },
+  "projects": {
+    "title": "Projekty",
+    "projects": [
+      {
+        "title": "Bookit",
+        "startDate": "2023",
+        "description": "Utrzymanie i rozwój – wewnętrzna aplikacja dla pracowników do rezerwacji biurek/miejsc parkingowych.",
+        "images": [
+          "images/portfolio/bookit/bookit2.png",
+          "images/portfolio/bookit/bookit.png",
+          "images/portfolio/bookit/bookit3.png",
+          "images/portfolio/bookit/bookit4.png",
+          "images/portfolio/bookit/bookit5.png",
+          "images/portfolio/bookit/bookit6.png",
+          "images/portfolio/bookit/bookit7.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "mdi:react",
+            "name": "React"
+          },
+          {
+            "class": "teenyicons:typescript-outline",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon:java",
+            "name": "Java"
+          },
+          {
+            "class": "devicon:spring",
+            "name": "Spring Boot"
+          },
+          {
+            "class": "devicon:docker",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon:jenkins",
+            "name": "Jenkins"
+          },
+          {
+            "class": "devicon:mongodb",
+            "name": "MongoDB"
+          }
+        ]
+      },
+      {
+        "title": "Dr. Pablo's Clinic (Sourcery Academy Projekt)",
+        "startDate": "2022",
+        "description": "Aplikacja stworzona podczas Sourcery Academy.",
+        "images": [
+          "images/portfolio/clinic/clinicCreateVisit.png",
+          "images/portfolio/clinic/ClinicEditData.png",
+          "images/portfolio/clinic/clinicMain.png",
+          "images/portfolio/clinic/clinicMyVisits.png",
+          "images/portfolio/clinic/clinicPatientInformation.png",
+          "images/portfolio/clinic/clinicSelectAppointment.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "mdi:react",
+            "name": "React"
+          },
+          {
+            "class": "teenyicons:typescript-outline",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon:java",
+            "name": "Java"
+          },
+          {
+            "class": "devicon:spring",
+            "name": "Spring Boot"
+          },
+          {
+            "class": "devicon:docker",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon:postgresql",
+            "name": "Postgresql"
+          }
+        ]
+      },
+      {
+        "title": "Book Coach (CodersLab Projekt)",
+        "startDate": "2022",
+        "description": "Aplikacja została zbudowana jako projekt końcowy kursu Java w Coders Lab.",
+        "images": [
+          "images/portfolio/bookCoach/bookCoach.png",
+          "images/portfolio/bookCoach/bookCoach2.png",
+          "images/portfolio/bookCoach/bookCoach3.png",
+          "images/portfolio/bookCoach/bookCoach4.png",
+          "images/portfolio/bookCoach/bookCoach5.png",
+          "images/portfolio/bookCoach/bookCoach6.png",
+          "images/portfolio/bookCoach/bookCoach7.png"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "mdi:react",
+            "name": "React"
+          },
+          {
+            "class": "teenyicons:typescript-outline",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon:java",
+            "name": "Java"
+          },
+          {
+            "class": "devicon:spring",
+            "name": "Spring Boot"
+          },
+          {
+            "class": "devicon:docker",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon:mysql",
+            "name": "MySQL"
+          }
+        ]
+      }
+    ]
+  },
+  "hobbies": {
+    "title": "Hobbies",
+    "hobbies": [
+      {
+        "name": "Developing",
+        "description": "TBA",
+        "images": ["images/tba.jpg"],
+        "icon": "ic:outline-code"
+      },
+      {
+        "name": "Siłownia",
+        "description": "TBA",
+        "images": ["images/tba.jpg"],
+        "icon": "gg:gym"
+      },
+      {
+        "name": "Podróżowanie",
+        "description": "TBA",
+        "images": ["images/tba.jpg"],
+        "icon": "ic:baseline-travel-explore"
+      },
+      {
+        "name": "E-Sport",
+        "description": "TBA",
+        "images": ["images/tba.jpg"],
+        "icon": "ic:baseline-sports-esports"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Umiejętności/Narzedia",
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon:html5"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon:css3"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon:typescript"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon:javascript"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon:mysql"
+      },
+      {
+        "name": "Java",
+        "class": "devicon:java"
+      },
+      {
+        "name": "Spring Boot",
+        "class": "devicon:spring"
+      },
+      {
+        "name": "Junit",
+        "class": "devicon:junit"
+      },
+      {
+        "name": "React",
+        "class": "devicon:react"
+      },
+      {
+        "name": "Redux",
+        "class": "devicon:redux"
+      },
+      {
+        "name": "Hibernate",
+        "class": "devicon:hibernate"
+      },
+      {
+        "name": "Kubernetes",
+        "class": "devicon:kubernetes"
+      },
+      {
+        "name": "Jenkins",
+        "class": "devicon:jenkins"
+      },
+      {
+        "name": "Docker",
+        "class": "devicon:docker"
+      },
+      {
+        "name": "Maven",
+        "class": "devicon:maven"
+      },
+      {
+        "name": "Git",
+        "class": "devicon:git"
+      },
+      {
+        "name": "Gradle",
+        "class": "devicon:gradle"
+      },
+      {
+        "name": "Jira",
+        "class": "devicon:jira"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Doświadczenie",
+    "experiences": [
+      {
+        "company": "Cognizant",
+        "title": "Junit Software Engineer",
+        "years": "08.2023 - present",
+        "mainTech": "Java",
+        "mainTechIcon": "devicon:java",
+        "technologies": [
+          "React 18",
+          "TypeScript",
+          "Java 8/17",
+          "Spring Boot 5",
+          "MongoDB",
+          "Docker",
+          "Jenkins",
+          "Kubernetes"
+        ]
+      }
+    ]
+  }
+}
