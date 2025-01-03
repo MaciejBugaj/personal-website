@@ -3,6 +3,8 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Icon } from "@iconify/react";
 import AwesomeSlider from "react-awesome-slider";
 import { HobbyType } from "@/i18n/config";
+import MovieClip from "../youtube/MoveClip";
+import Video from "../video/Video";
 
 interface Props {
   open: boolean;
@@ -39,6 +41,7 @@ const HobbyDialog = ({ open, onClose, hobby }: Props) => {
             >
               <Dialog.Panel className="relative transform overflow-hidden rounded-sm bg-white text-left shadow-xl transition-all sm:my-8 md:w-[800px]">
                 <div className="flex justify-end">
+                <h2 className="mx-auto mt-7 text-4xl font-bold">{hobby?.name}</h2>
                   <div className="bg-red-100 mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full sm:mx-0 sm:h-10 sm:w-10">
                     <Icon
                       icon="material-symbols:close"
@@ -47,7 +50,7 @@ const HobbyDialog = ({ open, onClose, hobby }: Props) => {
                     />
                   </div>
                 </div>
-
+                
                 <div className="mt-2 p-10">
                   <div className="rounded-sm border border-[rgba(0,0,0,.125)]">
                     <div className="flex items-center gap-3 border-b border-[rgba(0,0,0,.125)] bg-[rgba(0,0,0,0.03)] px-3 py-2">
@@ -62,15 +65,28 @@ const HobbyDialog = ({ open, onClose, hobby }: Props) => {
                         lineHeight: "200%",
                       }}
                     >
-                      <AwesomeSlider className="w-full" organicArrows={false}>
-                        {hobby?.images?.map((image) => (
-                          <div data-src={image} key={image} />
-                        ))}
-                      </AwesomeSlider>
+                      {hobby?.videoId ? (
+                        <MovieClip videoId={hobby?.videoId} />
+                      ) : (
+                        <></>
+                      )}
+                      {hobby?.images ? (
+                        <AwesomeSlider className="w-full" organicArrows={false}>
+                          {hobby?.images?.map((image) => (
+                            <div data-src={image} key={image} />
+                          ))}
+                        </AwesomeSlider>
+                      ) : (
+                        <></>
+                      )}
+                      {hobby?.videoPath ? (
+                        <Video videoPath={hobby.videoPath} />
+                      ) : (
+                        <></>
+                      )}
                     </div>
                   </div>
 
-                  <h2 className="mt-10 text-lg font-bold">{hobby?.name}</h2>
                   <p className="text-sm">{hobby?.description}</p>
                 </div>
 

@@ -156,26 +156,23 @@
       {
         "name": "Developing",
         "description": "TBA",
-        "images": ["images/tba.jpg"],
-        "icon": "ic:outline-code"
+        "icon": "ic:outline-code",
+        "videoId": "nbY_aP-alkw"
       },
       {
         "name": "Siłownia",
-        "description": "TBA",
-        "images": ["images/tba.jpg"],
-        "icon": "gg:gym"
+        "icon": "gg:gym",
+        "videoPath": "videos/135kg.mp4"
       },
       {
         "name": "Podróżowanie",
-        "description": "TBA",
-        "images": ["images/tba.jpg"],
-        "icon": "ic:baseline-travel-explore"
+        "icon": "ic:baseline-travel-explore",
+        "videoId": "nbY_aP-alkw"
       },
       {
         "name": "E-Sport",
-        "description": "TBA",
-        "images": ["images/tba.jpg"],
-        "icon": "ic:baseline-sports-esports"
+        "icon": "ic:baseline-sports-esports",
+        "videoId": "QlplxUHHJzo"
       }
     ]
   },

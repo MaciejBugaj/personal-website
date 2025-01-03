@@ -2,7 +2,7 @@ name: publish
 
 on:
   push:
-    branches: [ "develop" ]
+    branches: ["develop"]
 
 env:
   # Use docker.io for Docker Hub if empty
@@ -15,21 +15,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Login
-      run: |
-        echo ${{ secrets.PAT }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
-    - name: Build and Publish Backend
-      run: |
-        docker build . --tag ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-        docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-        
+      - uses: actions/checkout@v3
+      - name: Login
+        run: |
+          echo ${{ secrets.PAT }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+      - name: Build and Publish Backend
+        run: |
+          docker build . --tag ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+
   deploy:
-      needs: publish
-      name: deploy image
-      runs-on: ubuntu-latest
-      
-      steps:
+    needs: publish
+    name: deploy image
+    runs-on: ubuntu-latest
+
+    steps:
       - name: install ssh keys
         # check this thread to understand why its needed:
         # <https://stackoverflow.com/a/70447517>

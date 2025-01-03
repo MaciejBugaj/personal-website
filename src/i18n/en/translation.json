@@ -161,21 +161,18 @@
       },
       {
         "name": "Gym",
-        "description": "TBA",
-        "images": ["images/tba.jpg"],
-        "icon": "gg:gym"
+        "icon": "gg:gym",
+        "videoPath": "videos/135kg.mp4"
       },
       {
         "name": "Travel",
-        "description": "TBA",
-        "images": ["images/tba.jpg"],
-        "icon": "ic:baseline-travel-explore"
+        "icon": "ic:baseline-travel-explore",
+        "videoId": "nbY_aP-alkw"
       },
       {
         "name": "E-Sport",
-        "description": "TBA",
-        "images": ["images/tba.jpg"],
-        "icon": "ic:baseline-sports-esports"
+        "icon": "ic:baseline-sports-esports",
+        "videoId": "QlplxUHHJzo"
       }
     ]
   },
