@@ -96,3 +96,9 @@ docker-compose up -d
 
 
 ## Application screens
+
+<p style="text-align: center">
+    <a href="http://147.135.211.148/" target="_blank">
+        <img alt="image1" width="80%" src="https://raw.githubusercontent.com/maciejbugaj/personal-website/develop/.github/images/home.jpg" />
+    </a>
+</p>
